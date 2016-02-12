@@ -1,0 +1,9 @@
+[0310/093255:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0310/093255:INFO:CONSOLE(0)] "Document was loaded from Application Cache with manifest http://codb.coocox.org/codb/component_storage/static/manifest/offline.manifest", source: http://codb.coocox.org/codb/component_storage/static/main.html (0)
+[0310/093255:INFO:CONSOLE(0)] "Application Cache Checking event", source: http://codb.coocox.org/codb/component_storage/static/main.html (0)
+[0310/093255:INFO:CONSOLE(0)] "Document was loaded from Application Cache with manifest http://codb.coocox.org/codb/component_storage/static/manifest/offline.manifest", source: http://codb.coocox.org/codb/component_storage/static/main.html (0)
+[0310/093255:INFO:CONSOLE(0)] "Application Cache Checking event", source: http://codb.coocox.org/codb/component_storage/static/main.html (0)
+[0310/093257:INFO:CONSOLE(0)] "Application Cache NoUpdate event", source: http://codb.coocox.org/codb/component_storage/static/main.html (0)
+[0310/093257:INFO:CONSOLE(0)] "Application Cache NoUpdate event", source: http://codb.coocox.org/codb/component_storage/static/main.html (0)
+[0310/093301:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+[0310/100358:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)

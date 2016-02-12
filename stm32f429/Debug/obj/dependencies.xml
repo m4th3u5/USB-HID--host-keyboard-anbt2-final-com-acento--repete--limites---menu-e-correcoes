@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\..\..\Desktop\Programa todos\USB HID  host keyboard anbt2 final com acento, repete, limites,  menu e correcoes\libs\usb_hid_host_lolevel /I..\..\..\..\..\..\..\Desktop\Programa todos\USB HID  host keyboard anbt2 final com acento, repete, limites,  menu e correcoes\cmsis_lib /I..\..\..\..\..\..\..\Desktop\Programa todos\USB HID  host keyboard anbt2 final com acento, repete, limites,  menu e correcoes\cmsis_lib\include /I..\..\..\..\..\..\..\Desktop\Programa todos\USB HID  host keyboard anbt2 final com acento, repete, limites,  menu e correcoes\libs /I..\..\..\..\..\..\..\Desktop /I..\..\..\..\..\..\..\Desktop\Programa todos\USB HID  host keyboard anbt2 final com acento, repete, limites,  menu e correcoes\cmsis_boot /I..\..\..\..\..\..\..\Desktop\Programa todos\USB HID  host keyboard anbt2 final com acento, repete, limites,  menu e correcoes\cmsis /I..\..\..\..\..\..\..\Desktop\Programa todos /I..\..\..\..\..\..\..\Desktop\Programa todos\USB HID  host keyboard anbt2 final com acento, repete, limites,  menu e correcoes\libs\Display e touch /I..\..\..\..\..\..\..\Desktop\Programa todos\USB HID  host keyboard anbt2 final com acento, repete, limites,  menu e correcoes">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14130b96370">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usb_hcd_int.c" lastModified="14238e59f90">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_core.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_defines.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_hcd_int.h"/>
+      </source>
+      <source file="..\..\..\libs\Display e touch\stm32_ub_lcd_ili9341.h" lastModified="1420bbae110">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_ltdc.h"/>
+         <include file="..\..\..\libs\Display e touch\stm32_ub_spi5.h"/>
+         <include file="..\..\..\libs\Display e touch\stm32_ub_sdram.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_stdreq.h" lastModified="1423902b4e0">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_conf.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_hcd.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_core.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_def.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="14130b96b40">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\libs\Display e touch\stm32_ub_lcd_ili9341.c" lastModified="151c5489382">
+         <include file="..\..\..\libs\Display e touch\stm32_ub_lcd_ili9341.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_stdreq.c" lastModified="14239020900">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_ioreq.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_stdreq.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma2d.h" lastModified="14130b96b40">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma2d.c" lastModified="14130b96370">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma2d.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14130b96370">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14130b96370">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usb_core.h" lastModified="14238e188b0">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_conf.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_regs.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_defines.h"/>
+      </source>
+      <source file="..\..\..\libs\fonte\ub_font_arial_11x20.c" lastModified="150695c1ea9">
+         <include file="..\..\..\libs\Display e touch\stm32_ub_font.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="14130b96b40">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usb_core.c" lastModified="14239258ec0">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_core.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\libs\fonte\acentos.c" lastModified="15169017966">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\libs\Display e touch\stm32_ub_touch_stmpe811.h" lastModified="1421e461250">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\libs\Display e touch\stm32_ub_i2c3.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_core.h" lastModified="14238fc05f0">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_hcd.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_def.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_conf.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_hcs.h" lastModified="13df9f6fc10">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_core.h"/>
+      </source>
+      <source file="..\..\..\libs\Display e touch\stm32_ub_spi5.h" lastModified="141e0baab80">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+      </source>
+      <source file="..\..\..\libs\Display e touch\stm32_ub_touch_stmpe811.c" lastModified="1421e45d3d0">
+         <include file="..\..\..\libs\Display e touch\stm32_ub_touch_stmpe811.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_ltdc.h" lastModified="14130b96b40">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="1412d273430">
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_hcs.c" lastModified="13df9f62920">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_hcs.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_core.c" lastModified="14239288490">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_ioreq.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_bsp.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_hcs.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_stdreq.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_core.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_hcd_int.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="1412d273430">
+      </source>
+      <source file="..\..\..\libs\Display e touch\stm32_ub_spi5.c" lastModified="142046fb8e0">
+         <include file="..\..\..\libs\Display e touch\stm32_ub_spi5.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_usr.h" lastModified="1517d55ff53">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_core.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_conf.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_hid_core.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="141e709e398">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usb_conf.h" lastModified="1424ca057f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_usr.c" lastModified="152cc1a207a">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_usr.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_hid_keybd.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usb_bsp.h" lastModified="14239224ad0">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_core.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="14130b96b40">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usb_regs.h" lastModified="14238f8b260">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="14130b96370">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_conf.h" lastModified="140c0736250">
+      </source>
+      <source file="..\..\..\main.h" lastModified="15217416f67">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="14130b96370">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usb_bsp.c" lastModified="1424c9e2570">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_bsp.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_usr.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_hcd_int.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="14130b96b40">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="141d6a0a410">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_fmc.c" lastModified="14130b96370">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_fmc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="14130b96b40">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="1412d273430">
+      </source>
+      <source file="..\..\..\main.c" lastModified="1528d7d8800">
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\libs\Display e touch\stm32_ub_lcd_ili9341.h"/>
+         <include file="..\..\..\libs\Display e touch\stm32_ub_touch_stmpe811.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_usr.h"/>
+         <include file="..\..\..\libs\Display e touch\stm32_ub_font.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_fmc.h" lastModified="14130b96b40">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\libs\Display e touch\geometricas.c" lastModified="152cc0b49c0">
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\libs\Display e touch\stm32_ub_lcd_ili9341.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma2d.h"/>
+      </source>
+      <source file="..\..\..\libs\Display e touch\stm32_ub_font.h" lastModified="1503d84bf3f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usb_defines.h" lastModified="13df9e8c370">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\libs\Display e touch\stm32_ub_font.c" lastModified="14d2a78f640">
+         <include file="..\..\..\libs\Display e touch\stm32_ub_font.h"/>
+         <include file="..\..\..\libs\Display e touch\stm32_ub_lcd_ili9341.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usb_hcd.h" lastModified="13df9ecb340">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_regs.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_core.h"/>
+      </source>
+      <source file="..\..\..\libs\stm32_led.h" lastModified="14d2a8569c0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_def.h" lastModified="14239169aa0">
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usb_hcd.c" lastModified="14238e38480">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_core.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_hcd.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_conf.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\libs\stm32_led.c" lastModified="14d2a8bd260">
+         <include file="..\..\..\libs\stm32_led.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_hid_keybd.h" lastModified="15140b7d53f">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_conf.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_hid_core.h"/>
+      </source>
+      <source file="..\..\..\libs\Display e touch\stm32_ub_sdram.h" lastModified="141ec3d0cf0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_fmc.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_ioreq.h" lastModified="14238fd9c30">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_conf.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_core.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_def.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_ltdc.c" lastModified="14130b96370">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_ltdc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\libs\Display e touch\stm32_ub_sdram.c" lastModified="141ec3d0cf0">
+         <include file="..\..\..\libs\Display e touch\stm32_ub_sdram.h"/>
+      </source>
+      <source file="..\..\..\libs\teclado.c" lastModified="152cc17c557">
+         <include file="..\..\..\libs\Display e touch\stm32_ub_font.h"/>
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_usr.h"/>
+         <include file="..\..\..\libs\Display e touch\stm32_ub_lcd_ili9341.h"/>
+      </source>
+      <source file="..\..\..\libs\Display e touch\stm32_ub_i2c3.h" lastModified="13d46c989f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_ioreq.c" lastModified="14238fce880">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_ioreq.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="1412d273048">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\libs\Display e touch\stm32_ub_i2c3.c" lastModified="14c634d8130">
+         <include file="..\..\..\libs\Display e touch\stm32_ub_i2c3.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="14130b953d0">
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_hid_core.h" lastModified="140c0abfe80">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_core.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_stdreq.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_bsp.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_ioreq.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_hcs.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14d2a914100">
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usb_hcd_int.h" lastModified="14238e68220">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usb_hcd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14213b74070">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_hid_core.c" lastModified="14bea29f040">
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_hid_core.h"/>
+         <include file="..\..\..\libs\usb_hid_host_lolevel\usbh_hid_keybd.h"/>
+      </source>
+   </includePath>
+</dependencies>

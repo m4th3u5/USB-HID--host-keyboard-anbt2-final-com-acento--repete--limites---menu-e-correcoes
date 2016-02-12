@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSTM32F429_439xx -I..\..\..\..\..\..\..\Desktop\Programa todos\USB HID  host keyboard anbt2 final com acento, repete, limites,  menu e correcoes\libs\usb_hid_host_lolevel -I..\..\..\..\..\..\..\Desktop\Programa todos\USB HID  host keyboard anbt2 final com acento, repete, limites,  menu e correcoes\cmsis_lib -I..\..\..\..\..\..\..\Desktop\Programa todos\USB HID  host keyboard anbt2 final com acento, repete, limites,  menu e correcoes\cmsis_lib\include -I..\..\..\..\..\..\..\Desktop\Programa todos\USB HID  host keyboard anbt2 final com acento, repete, limites,  menu e correcoes\libs -I..\..\..\..\..\..\..\Desktop -I..\..\..\..\..\..\..\Desktop\Programa todos\USB HID  host keyboard anbt2 final com acento, repete, limites,  menu e correcoes\cmsis_boot -I..\..\..\..\..\..\..\Desktop\Programa todos\USB HID  host keyboard anbt2 final com acento, repete, limites,  menu e correcoes\cmsis -I..\..\..\..\..\..\..\Desktop\Programa todos -I..\..\..\..\..\..\..\Desktop\Programa todos\USB HID  host keyboard anbt2 final com acento, repete, limites,  menu e correcoes\libs\Display e touch -I..\..\..\..\..\..\..\Desktop\Programa todos\USB HID  host keyboard anbt2 final com acento, repete, limites,  menu e correcoes">
+      <target file="stm32_led.o" lastModified="152cc6e4347">
+         <source file="..\..\..\libs\stm32_led.c" lastModified="14d2a8bd260"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="152cc6e3eb5">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14130b96370"/>
+      </target>
+      <target file="usbh_core.o" lastModified="152cc6e3e1b">
+         <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_core.c" lastModified="14239288490"/>
+      </target>
+      <target file="acentos.o" lastModified="152cc6e3ef1">
+         <source file="..\..\..\libs\fonte\acentos.c" lastModified="15169017966"/>
+      </target>
+      <target file="stm32_ub_font.o" lastModified="152cc6e3f3a">
+         <source file="..\..\..\libs\Display e touch\stm32_ub_font.c" lastModified="14d2a78f640"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="152cc6e3c44">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14d2a914100"/>
+      </target>
+      <target file="usbh_hid_core.o" lastModified="152cc6e3d63">
+         <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_hid_core.c" lastModified="14bea29f040"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="152cc6e3f7a">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14213b74070"/>
+      </target>
+      <target file="usb_bsp.o" lastModified="152cc6e407c">
+         <source file="..\..\..\libs\usb_hid_host_lolevel\usb_bsp.c" lastModified="1424c9e2570"/>
+      </target>
+      <target file="misc.o" lastModified="152cc6e4271">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14130b96370"/>
+      </target>
+      <target file="usbh_hid_keybd.o" lastModified="152cc73ae45">
+         <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_hid_keybd.c" lastModified="152cc73abe3"/>
+      </target>
+      <target file="stm32_ub_i2c3.o" lastModified="152cc6e3aab">
+         <source file="..\..\..\libs\Display e touch\stm32_ub_i2c3.c" lastModified="14c634d8130"/>
+      </target>
+      <target file="stm32f4xx_dma2d.o" lastModified="152cc6e3a60">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma2d.c" lastModified="14130b96370"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="152cc6e417f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="14130b96370"/>
+      </target>
+      <target file="usb_hcd_int.o" lastModified="152cc6e43bc">
+         <source file="..\..\..\libs\usb_hid_host_lolevel\usb_hcd_int.c" lastModified="14238e59f90"/>
+      </target>
+      <target file="teclado.o" lastModified="152cc6e3b12">
+         <source file="..\..\..\libs\teclado.c" lastModified="152cc17c557"/>
+      </target>
+      <target file="stm32_ub_sdram.o" lastModified="152cc6e39c0">
+         <source file="..\..\..\libs\Display e touch\stm32_ub_sdram.c" lastModified="141ec3d0cf0"/>
+      </target>
+      <target file="ub_font_arial_11x20.o" lastModified="152cc6e3e69">
+         <source file="..\..\..\libs\fonte\ub_font_arial_11x20.c" lastModified="150695c1ea9"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="152cc6e3d0c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14130b96370"/>
+      </target>
+      <target file="usbh_ioreq.o" lastModified="152cc6e4231">
+         <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_ioreq.c" lastModified="14238fce880"/>
+      </target>
+      <target file="usbh_usr.o" lastModified="152cc6e4021">
+         <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_usr.c" lastModified="152cc1a207a"/>
+      </target>
+      <target file="stm32f4xx_fmc.o" lastModified="152cc6e40df">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_fmc.c" lastModified="14130b96370"/>
+      </target>
+      <target file="usb_core.o" lastModified="152cc6e3972">
+         <source file="..\..\..\libs\usb_hid_host_lolevel\usb_core.c" lastModified="14239258ec0"/>
+      </target>
+      <target file="stm32_ub_lcd_ili9341.o" lastModified="152cc6e3dbe">
+         <source file="..\..\..\libs\Display e touch\stm32_ub_lcd_ili9341.c" lastModified="151c5489382"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="152cc6e41dd">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="14130b96370"/>
+      </target>
+      <target file="stm32f4xx_ltdc.o" lastModified="152cc6e3c1a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_ltdc.c" lastModified="14130b96370"/>
+      </target>
+      <target file="usbh_hcs.o" lastModified="152cc6e3b64">
+         <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_hcs.c" lastModified="13df9f62920"/>
+      </target>
+      <target file="stm32_ub_touch_stmpe811.o" lastModified="152cc6e42ba">
+         <source file="..\..\..\libs\Display e touch\stm32_ub_touch_stmpe811.c" lastModified="1421e45d3d0"/>
+      </target>
+      <target file="stm32_ub_spi5.o" lastModified="152cc6e3fbd">
+         <source file="..\..\..\libs\Display e touch\stm32_ub_spi5.c" lastModified="142046fb8e0"/>
+      </target>
+      <target file="usbh_stdreq.o" lastModified="152cc6e3bbd">
+         <source file="..\..\..\libs\usb_hid_host_lolevel\usbh_stdreq.c" lastModified="14239020900"/>
+      </target>
+      <target file="main.o" lastModified="152cc6e3ca4">
+         <source file="..\..\..\main.c" lastModified="1528d7d8800"/>
+      </target>
+      <target file="geometricas.o" lastModified="152cc6e3a0e">
+         <source file="..\..\..\libs\Display e touch\geometricas.c" lastModified="152cc0b49c0"/>
+      </target>
+      <target file="usb_hcd.o" lastModified="152cc6e4128">
+         <source file="..\..\..\libs\usb_hid_host_lolevel\usb_hcd.c" lastModified="14238e38480"/>
+      </target>
+   </processor>
+</history>
